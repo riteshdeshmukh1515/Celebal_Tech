@@ -6,7 +6,7 @@
 
 An **8-Week Structured Learning Repository** for building strong foundations in **Data Engineering** through practical assignments.
 
-**Part of Celebal Technologies Externship Internship (CEI) 2026**
+**Part of Celebal Technologies Excellence Internship (CEI) 2026**
 
 👨‍💻 **Ritesh Deshmukh**
 🎓 *Computer Engineering Student*
