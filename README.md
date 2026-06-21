@@ -167,7 +167,9 @@ Upcoming topics in this learning journey:
 ## 👨‍💻 Author
 
 **Ritesh Deshmukh**
+
 *Computer Engineering Student*
+
 *Aspiring Data Engineer*
 
 ---
