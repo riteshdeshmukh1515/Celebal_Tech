@@ -60,7 +60,7 @@ This repository will be updated regularly after each assignment submission.
 |  Week  | Topic                     |    Status   |
 | :----: | :------------------------ | :---------: |
 | Week 1 | Python Basics             | ✅ Completed |
-| Week 2 | SQL Basics                |  🔒 Pending |
+| Week 2 | SQL Basics                | ✅ Completed |
 | Week 3 | Subqueries                |  🔒 Pending |
 | Week 4 | Data Engineering Concepts |  🔒 Pending |
 | Week 5 | Data Cleaning             |  🔒 Pending |
@@ -72,8 +72,9 @@ This repository will be updated regularly after each assignment submission.
 
 ## 📁 Repository Structure
 
+
 ```text
-data-engineering-assignments/
+Celebal_Tech(data-engineering-assignments)/
 │
 ├── README.md
 │
@@ -83,6 +84,32 @@ data-engineering-assignments/
 │   └── data/
 │
 ├── Assignment-02/
+│   ├── Database_setup/
+│   │   ├── shopease.sql
+│   │   └── shopease_database_setup.pdf
+│   │
+│   ├── Section_A/
+│   │   ├── basic_queries.sql
+│   │   └── section_a_documentation.pdf
+│   │
+│   ├── Section_B/
+│   │   ├── filtering_queries.sql
+│   │   └── section_b_documentation.pdf
+│   │
+│   ├── Section_C/
+│   │   ├── aggregation_queries.sql
+│   │   └── section_c_documentation.pdf
+│   │
+│   ├── Section_D/
+│   │   ├── joins_queries.sql
+│   │   └── section_d_documentation.pdf
+│   │
+│   ├── Section_E/
+│   │   ├── advanced_queries.sql
+│   │   └── section_e_documentation.pdf
+│   │
+│   └── README.md
+│
 ├── Assignment-03/
 ├── Assignment-04/
 ├── Assignment-05/
@@ -90,8 +117,6 @@ data-engineering-assignments/
 ├── Assignment-07/
 └── Assignment-08/
 ```
-
----
 
 # 📌 Week 1 (Assignment No. 1)
 
@@ -118,26 +143,47 @@ This assignment focuses on building strong fundamentals in **Python Programming*
 | 📈 Data Visualization       | Histograms, Boxplots, Scatterplots, Bar Charts   |
 
 ---
+# 📌 Week 2 (Assignment No. 2)
+
+## SQL-Based Sales Data Analysis
+
+This assignment focuses on building strong fundamentals in **SQL** and performing **sales data analysis** using filtering, aggregation, joins, and business queries on an e-commerce dataset.
+
+---
+
+## 📚 Topics Covered in Assignment No. 2
+
+| Topic | Description |
+| :--- | :--- |
+| 🗄️ Database Setup | Creating database, tables, and relationships |
+| 🔑 Constraints & Keys | Primary Keys, Foreign Keys, UNIQUE, CHECK |
+| 📂 Data Loading | Inserting sample records into relational tables |
+| 🔍 Data Exploration | Using SELECT, DISTINCT, and schema inspection |
+| 🎯 Data Filtering | Applying `WHERE`, `BETWEEN`, `AND`, `NOT` conditions |
+| ⚡ Query Optimization | Understanding indexes and SARGable queries |
+| 📊 Aggregation | Using `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()` |
+| 🧮 Grouping Data | Applying `GROUP BY` and `HAVING` for summaries |
+| 🔗 Table Joins | INNER JOIN, LEFT JOIN, RIGHT JOIN operations |
+| 🏷️ Business Queries | Customer insights, sales trends, product analysis |
+| ⚙️ CASE Statements | Conditional categorization and logic handling |
+| 🔄 Transactions | COMMIT, ROLLBACK, and transaction management |
+| 🛡️ ACID Properties | Understanding Atomicity, Consistency, Isolation, Durability |
+
+---
 
 ## 🎯 Learning Goals
+This structured learning journey is designed to:
 
-This learning journey aims to:
-
-✔ Build strong Python fundamentals
-
-✔ Learn SQL and advanced querying techniques
-
-✔ Understand core Data Engineering workflows
-
-✔ Practice data cleaning and preprocessing
-
-✔ Learn Apache Spark fundamentals
-
-✔ Work with Databricks environment
-
-✔ Understand real-world data pipelines
-
-✔ Build end-to-end data solutions
+✔ Strengthen programming fundamentals with Python  
+✔ Master SQL concepts and query writing  
+✔ Understand relational database design and optimization  
+✔ Perform data cleaning, filtering, and aggregation  
+✔ Learn data analysis using business-oriented SQL queries  
+✔ Build a strong foundation in Data Engineering concepts  
+✔ Explore Apache Spark and distributed data processing  
+✔ Work with Databricks for scalable data workflows  
+✔ Understand ETL pipelines and data architecture  
+✔ Develop end-to-end real-world data solutions  
 
 ---
 
@@ -145,22 +191,35 @@ This learning journey aims to:
 
 ```text
 ✅ Assignment No. 1 Completed
-⏳ Next: Assignment No. 2 (SQL Basics)
+✅ Assignment No. 2 Completed
+⏳ Next: Assignment No. 3(Subqueries)
 ```
 
 ---
 
 ## 📌 Future Scope
 
-Upcoming topics in this learning journey:
+Future assignments will cover:
 
-* SQL Query Optimization
-* Advanced Subqueries
-* Data Pipeline Concepts
-* ETL Workflows
-* Spark Transformations
-* Databricks Workflows
-* Project Planning & Architecture
+• Advanced SQL Queries & Optimization
+
+• Subqueries and Nested Queries
+
+• Window Functions
+
+• ETL Pipeline Development
+
+• Apache Spark Transformations
+
+• Databricks Workflow Management
+
+• Data Warehousing Concepts
+
+• Real-Time Data Processing
+
+• Data Pipeline Architecture
+
+• End-to-End Data Engineering Projects
 
 ---
 
