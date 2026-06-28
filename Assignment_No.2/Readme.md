@@ -352,5 +352,4 @@ This assignment helped strengthen my SQL fundamentals by working on a structured
 
 It provided practical exposure to querying, analyzing, and validating relational data, which is essential for data analytics and data engineering roles.
 
-```
-```
+---
