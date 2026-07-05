@@ -61,7 +61,7 @@ This repository will be updated regularly after each assignment submission.
 | :----: | :------------------------ | :---------: |
 | Week 1 | Python Basics             | ✅ Completed |
 | Week 2 | SQL Basics                | ✅ Completed |
-| Week 3 | Subqueries                |  🔒 Pending |
+| Week 3 | Subqueries                | ✅ Completed |
 | Week 4 | Data Engineering Concepts |  🔒 Pending |
 | Week 5 | Data Cleaning             |  🔒 Pending |
 | Week 6 | Spark Introduction        |  🔒 Pending |
@@ -74,7 +74,8 @@ This repository will be updated regularly after each assignment submission.
 
 
 ```text
-Celebal_Tech(data-engineering-assignments)/
+```text
+Celebal_Tech (data-engineering-assignments)/
 │
 ├── README.md
 │
@@ -111,12 +112,29 @@ Celebal_Tech(data-engineering-assignments)/
 │   └── README.md
 │
 ├── Assignment-03/
+│   ├── dataset/
+│   │   └── Sample - Superstore.csv
+│   │
+│   ├── sql/
+│   │   ├── 1_create_tables.sql
+│   │   ├── 2_insert_data.sql
+│   │   ├── 3_queries.sql
+│   │   ├── 4_final_query.sql
+│   │   └── 5_mini_project.sql
+│   │
+│   ├── Screenshots/
+│   │   └── Query Screenshots/
+│   │
+│   └── README.md
+│
 ├── Assignment-04/
 ├── Assignment-05/
 ├── Assignment-06/
 ├── Assignment-07/
 └── Assignment-08/
 ```
+
+
 
 # 📌 Week 1 (Assignment No. 1)
 
@@ -170,6 +188,33 @@ This assignment focuses on building strong fundamentals in **SQL** and performin
 | 🛡️ ACID Properties | Understanding Atomicity, Consistency, Isolation, Durability |
 
 ---
+# 📌 Week 3 (Assignment No. 3)
+
+## SQL Advanced Analytics
+
+This assignment focuses on applying **Advanced SQL** concepts to analyze the **Sample Superstore** dataset. The project demonstrates how to perform customer and sales analytics using **Subqueries**, **Common Table Expressions (CTEs)**, **Window Functions**, and **JOINs** to solve real-world business problems and generate meaningful insights.
+
+---
+
+## 📚 Topics Covered in Assignment No. 3
+
+| Topic                              | Description                                                                     |
+| :--------------------------------- | :------------------------------------------------------------------------------ |
+| 🗄️ Database Setup                 | Creating the database and importing the Superstore dataset into MySQL           |
+| 📂 Data Normalization              | Creating `customers`, `products`, and `orders` tables using `SELECT DISTINCT`   |
+| 🔍 Data Exploration                | Exploring the dataset using `SELECT`, `DISTINCT`, and summary queries           |
+| 🧩 Subqueries                      | Finding above-average sales, highest-value orders, and nested query analysis    |
+| 🔄 Common Table Expressions (CTEs) | Simplifying complex queries and performing intermediate aggregations            |
+| 📊 Customer Sales Analysis         | Calculating total sales, profit, and quantity for each customer                 |
+| 📈 Window Functions                | Using `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()` for ranking and segmentation |
+| 🔗 JOIN Operations                 | Combining customer, product, and order tables for comprehensive analysis        |
+| 🏆 Customer Ranking                | Ranking customers based on total sales and identifying top performers           |
+| 📉 Sales Distribution              | Identifying top customers, bottom customers, and above-average customers        |
+| 🛍️ Order Analysis                 | Finding highest-value orders and customers with only one order                  |
+| 📌 Business Insights               | Generating actionable insights from customer and sales data using SQL           |
+
+---
+
 
 ## 🎯 Learning Goals
 This structured learning journey is designed to:
@@ -192,7 +237,8 @@ This structured learning journey is designed to:
 ```text
 ✅ Assignment No. 1 Completed
 ✅ Assignment No. 2 Completed
-⏳ Next: Assignment No. 3(Subqueries)
+✅ Assignment No. 3 Completed
+⏳ Next: Assignment No. 4
 ```
 
 ---
