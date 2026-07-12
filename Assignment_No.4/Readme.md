@@ -52,7 +52,7 @@ Build a complete data pipeline that reads a CSV file from Azure Blob Storage and
 # Project Architecture
 
 ```text
-                  Superstore.csv
+                  Sample-Superstore.csv
                         │
                         ▼
         Azure Blob Storage (Input Container)
@@ -73,7 +73,7 @@ Build a complete data pipeline that reads a CSV file from Azure Blob Storage and
      Azure Blob Storage (Destination Container)
                         │
                         ▼
-              Superstore_Copy.csv
+              Sample-Superstore_Copy.csv
 ```
 
 ---
