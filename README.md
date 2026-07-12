@@ -62,7 +62,7 @@ This repository will be updated regularly after each assignment submission.
 | Week 1 | Python Basics             | ✅ Completed |
 | Week 2 | SQL Basics                | ✅ Completed |
 | Week 3 | Subqueries                | ✅ Completed |
-| Week 4 | Data Engineering Concepts |  🔒 Pending |
+| Week 4 | Data Engineering Concepts | ✅ Completed |
 | Week 5 | Data Cleaning             |  🔒 Pending |
 | Week 6 | Spark Introduction        |  🔒 Pending |
 | Week 7 | Databricks                |  🔒 Pending |
@@ -128,6 +128,10 @@ Celebal_Tech (data-engineering-assignments)/
 │   └── README.md
 │
 ├── Assignment-04/
+│   ├── Screenshots
+|   ├── Assignment_No.4 Report.pdf
+│   │── Sample - Superstore.csv
+|   ├── Readme.md
 ├── Assignment-05/
 ├── Assignment-06/
 ├── Assignment-07/
@@ -214,7 +218,35 @@ This assignment focuses on applying **Advanced SQL** concepts to analyze the **S
 | 📌 Business Insights               | Generating actionable insights from customer and sales data using SQL           |
 
 ---
+# 📌 Week 4 (Assignment No. 4)
 
+## Azure Cloud Fundamentals & Data Pipeline Implementation using Azure Data Factory (ADF)
+
+This assignment focuses on understanding **Microsoft Azure Cloud Services** and building an **end-to-end data pipeline** using **Azure Blob Storage** and **Azure Data Factory (ADF)**. It covers creating Azure resources, configuring storage, designing ETL pipelines, validating metadata, managing access using IAM, and monitoring pipeline execution.
+
+---
+
+## 📚 Topics Covered in Assignment No. 4
+
+| Topic | Description |
+| :--- | :--- |
+| ☁️ Azure Cloud Fundamentals | Understanding Azure Portal, Resource Groups, and Cloud Services |
+| 📁 Resource Group | Creating and managing Azure resources in a logical container |
+| 💾 Azure Storage Account | Creating Storage Accounts and managing cloud storage |
+| 📦 Azure Blob Storage | Creating Blob Containers and uploading CSV datasets |
+| 🏗️ Azure Data Factory (ADF) | Creating and exploring Azure Data Factory Studio |
+| 🔗 Linked Services | Connecting Azure Data Factory with Azure Blob Storage |
+| 📄 Datasets | Configuring Source and Destination datasets |
+| 📋 Get Metadata Activity | Retrieving file metadata such as Exists, Size, and Last Modified |
+| 📂 Copy Data Activity | Copying data from the input Blob container to the destination container |
+| ⚙️ Pipeline Development | Designing and validating an end-to-end ETL pipeline |
+| ▶️ Pipeline Execution | Running pipelines using Debug and Trigger options |
+| 📊 Pipeline Monitoring | Monitoring execution status and activity logs |
+| 🔐 Azure IAM (RBAC) | Assigning Reader, Contributor, and Storage Blob Data Contributor roles |
+| ✅ End-to-End Data Pipeline | Implementing and validating a complete Blob → ADF → Blob data pipeline |
+| 📈 Cloud Data Engineering | Understanding practical cloud-based ETL workflow and data movement |
+
+---
 
 ## 🎯 Learning Goals
 This structured learning journey is designed to:
@@ -238,7 +270,8 @@ This structured learning journey is designed to:
 ✅ Assignment No. 1 Completed
 ✅ Assignment No. 2 Completed
 ✅ Assignment No. 3 Completed
-⏳ Next: Assignment No. 4
+✅ Assignment No. 4 Completed
+⏳ Next: Assignment No. 5
 ```
 
 ---
