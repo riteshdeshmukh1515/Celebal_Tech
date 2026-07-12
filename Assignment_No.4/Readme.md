@@ -134,7 +134,7 @@ Stores the copied CSV file after pipeline execution.
 
 ```text
 destination/
-    Superstore_Copy.csv
+    Sample-Superstore_Copy.csv
 ```
 
 ---
@@ -255,13 +255,13 @@ Copies the CSV file from the **input** container to the **destination** containe
 ### Source
 
 ```text
-input/Superstore.csv
+input/Sample-Superstore.csv
 ```
 
 ### Destination
 
 ```text
-destination/Superstore_Copy.csv
+destination/Sample-Superstore_Copy.csv
 ```
 
 ---
@@ -330,7 +330,7 @@ After successful execution, the destination container contained the copied CSV f
 
 ```text
 destination/
-    Superstore_Copy.csv
+    Sample-Superstore_Copy.csv
 ```
 
 The metadata validation confirmed:
