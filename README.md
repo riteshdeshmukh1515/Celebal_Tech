@@ -63,7 +63,7 @@ This repository will be updated regularly after each assignment submission.
 | Week 2 | SQL Basics                | ✅ Completed |
 | Week 3 | Subqueries                | ✅ Completed |
 | Week 4 | Data Engineering Concepts | ✅ Completed |
-| Week 5 | Data Cleaning             |  🔒 Pending |
+| Week 5 | Data Cleaning             | ✅ Completed |
 | Week 6 | Spark Introduction        |  🔒 Pending |
 | Week 7 | Databricks                |  🔒 Pending |
 | Week 8 | Planning                  |  🔒 Pending |
@@ -128,13 +128,29 @@ Celebal_Tech (data-engineering-assignments)/
 │   └── README.md
 │
 ├── Assignment-04/
-│   ├── Screenshots
-|   ├── Assignment_No.4 Report.pdf
-│   │── Sample - Superstore.csv
-|   ├── Readme.md
+│   ├── Screenshots/
+│   ├── Assignment_No.4_Report.pdf
+│   ├── Sample - Superstore.csv
+│   └── README.md
+│
 ├── Assignment-05/
+│   ├── Dataset/
+│   │   └── Titanic-Dataset.csv
+│   │
+│   ├── notebook/
+│   │   ├── Assignment_06_Apache_Spark_DataFrame_Operations(1).ipynb
+│   │   └── Assignment_06_Apache_Spark_DataFrame_Operations(1).pdf
+│   │
+│   ├── output/
+│   │   └── Spark_Output.csv
+│   │
+│   ├── Week-5_Question_Documentation.pdf
+│   └── README.md
+│
 ├── Assignment-06/
+│
 ├── Assignment-07/
+│
 └── Assignment-08/
 ```
 
