@@ -88,10 +88,12 @@ spark-assignment/
 │
 │── notebook/
 │   └── Assignment_06_Apache_Spark_DataFrame_Operations(1).ipynb
-|   └── Assignment_06_Apache_Spark_DataFrame_Operations(1)-pdf
+|   └── Assignment_06_Apache_Spark_DataFrame_Operations(1).pdf
 │
 │── output/
 │   └── Spark Output.csv
+│
+└── Week- 5 Question_Documentation.pdf
 │
 └── README.md
 ```
@@ -301,7 +303,7 @@ Overall, this project provided practical experience in building a complete Spark
 
 **Course:** B.Tech Computer Engineering
 
-**Assignment:** Assignment No. 6 – Apache Spark DataFrame Operations using PySpark
+**Assignment:** Assignment No. 5 – Apache Spark DataFrame Operations using PySpark
 
 **Platform:** Google Colab
 
