@@ -82,7 +82,7 @@ The dataset contains passenger information from the Titanic disaster and include
 # 📁 Project Structure
 
 ```text
-spark-assignment/
+Assignment_No.5/
 │── Dataset/
 │   └── Titanic-Dataset.csv
 │
