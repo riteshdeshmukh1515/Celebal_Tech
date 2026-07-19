@@ -263,6 +263,49 @@ This assignment focuses on understanding **Microsoft Azure Cloud Services** and 
 | 📈 Cloud Data Engineering | Understanding practical cloud-based ETL workflow and data movement |
 
 ---
+# 📌 Week 5 (Assignment No. 5 )
+##  Apache Spark DataFrame Operations
+
+## 📖 Overview
+
+This assignment focuses on learning the fundamentals of **Apache Spark** and performing **DataFrame operations** using **PySpark**. The Titanic dataset is used to explore Spark DataFrames, perform data cleaning, apply transformations, and generate analytical insights. The assignment also highlights the advantages of Spark's in-memory processing over traditional Hadoop MapReduce.
+
+---
+
+## 🎯 Objectives 
+
+- Understand the basics of Apache Spark and PySpark.
+- Learn how to create and work with Spark DataFrames.
+- Read and analyze CSV datasets using Spark.
+- Perform data cleaning and preprocessing.
+- Apply filtering, sorting, grouping, and aggregation operations.
+- Remove duplicate records based on selected columns.
+- Export processed data to CSV format.
+- Compare Apache Spark with Hadoop MapReduce.
+
+---
+
+## 📚 Topics Covered in Assignment No. 5
+
+| Topic | Description |
+| :--- | :--- |
+| ⚡ Introduction to Apache Spark | Understanding Apache Spark architecture and its advantages over Hadoop MapReduce |
+| 🏗️ Spark Environment Setup | Setting up Apache Spark using PySpark and Jupyter Notebook |
+| 📂 Loading CSV Data | Reading the Titanic dataset into a Spark DataFrame |
+| 📊 Spark DataFrames | Creating, exploring, and performing operations on DataFrames |
+| 🔍 Data Exploration | Viewing schema, displaying records, and generating summary statistics |
+| 🧹 Data Cleaning | Handling missing values and removing duplicate records |
+| 📝 Column Operations | Selecting, renaming, adding, and dropping DataFrame columns |
+| 🔄 Filtering & Sorting | Filtering records based on conditions and sorting data |
+| 📈 Aggregation | Performing aggregate functions such as count, sum, average, min, and max |
+| 👥 GroupBy Operations | Grouping data and generating summarized insights |
+| 🛠️ Data Transformation | Applying transformations using Spark DataFrame APIs |
+| 💾 Writing Output | Exporting processed DataFrames as CSV files |
+| 🚀 In-Memory Processing | Understanding Spark's in-memory computation for faster processing |
+| ⚖️ Spark vs MapReduce | Comparing Spark with traditional Hadoop MapReduce architecture |
+| ✅ End-to-End Spark Workflow | Building a complete Spark DataFrame pipeline from data loading to output generation |
+
+---
 
 ## 🎯 Learning Goals
 This structured learning journey is designed to:
@@ -287,7 +330,8 @@ This structured learning journey is designed to:
 ✅ Assignment No. 2 Completed
 ✅ Assignment No. 3 Completed
 ✅ Assignment No. 4 Completed
-⏳ Next: Assignment No. 5
+✅ Assignment No. 5 Completed
+⏳ Next: Assignment No. 6
 ```
 
 ---
