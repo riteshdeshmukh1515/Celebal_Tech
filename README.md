@@ -64,7 +64,7 @@ This repository will be updated regularly after each assignment submission.
 | Week 3 | Subqueries                | ✅ Completed |
 | Week 4 | Data Engineering Concepts | ✅ Completed |
 | Week 5 | Data Cleaning             | ✅ Completed |
-| Week 6 | Spark Introduction        |  🔒 Pending |
+| Week 6 | Spark Introduction        | ✅ Completed |
 | Week 7 | Databricks                |  🔒 Pending |
 | Week 8 | Planning                  |  🔒 Pending |
 
@@ -137,17 +137,35 @@ Celebal_Tech (data-engineering-assignments)/
 │   ├── Dataset/
 │   │   └── Titanic-Dataset.csv
 │   │
-│   ├── notebook/
-│   │   ├── Assignment_06_Apache_Spark_DataFrame_Operations(1).ipynb
-│   │   └── Assignment_06_Apache_Spark_DataFrame_Operations(1).pdf
+│   ├── Notebook/
+│   │   ├── Assignment_05_Apache_Spark_DataFrame_Operations.ipynb
+│   │   └── Assignment_05_Apache_Spark_DataFrame_Operations.pdf
 │   │
-│   ├── output/
+│   ├── Output/
 │   │   └── Spark_Output.csv
 │   │
 │   ├── Week-5_Question_Documentation.pdf
 │   └── README.md
 │
 ├── Assignment-06/
+│   ├── Dataset/
+│   │   └── hotel_bookings.csv
+│   │
+│   ├── Notebook/
+│   │   └── CEI_Assignment_No_6.ipynb
+│   │
+│   ├── Output/
+│   │   ├── CSV/
+│   │   │   ├── part-00000-*.csv
+│   │   │   ├── _SUCCESS
+│   │   │   └── ...
+│   │   │
+│   │   └── PARQUET/
+│   │       ├── part-00000-*.parquet
+│   │       ├── _SUCCESS
+│   │       └── ...
+│   │
+│   └── README.md
 │
 ├── Assignment-07/
 │
@@ -305,6 +323,60 @@ This assignment focuses on learning the fundamentals of **Apache Spark** and per
 | ⚖️ Spark vs MapReduce | Comparing Spark with traditional Hadoop MapReduce architecture |
 | ✅ End-to-End Spark Workflow | Building a complete Spark DataFrame pipeline from data loading to output generation |
 
+
+# 📌 Week 6 (Assignment No. 6)
+## Apache Spark Architecture & Data Processing using PySpark
+
+## 📖 Overview
+
+This assignment focuses on understanding **Apache Spark Architecture** and performing efficient **data processing using PySpark**. The **Hotel Booking Demand** dataset is used to explore Spark DataFrames, perform schema handling, data transformations, filtering, null value handling, performance optimization, and build an end-to-end ETL pipeline. The assignment also demonstrates Spark concepts such as **Lazy Evaluation**, **DAG (Directed Acyclic Graph)**, **Wide Transformations**, **Shuffle**, **Predicate Pushdown**, and compares **CSV** and **Parquet** file formats.
+
+---
+
+## 🎯 Objectives
+
+- Understand Apache Spark Architecture.
+- Learn the roles of Driver, Cluster Manager, and Executors.
+- Understand Spark Execution Modes.
+- Learn Lazy Evaluation and DAG (Directed Acyclic Graph).
+- Read CSV and Parquet files with proper schema handling.
+- Perform DataFrame filtering and column selection.
+- Modify DataFrames by renaming columns, casting data types, and creating new columns.
+- Handle missing values efficiently.
+- Understand Wide Transformations and Shuffle operations.
+- Learn Predicate Pushdown optimization.
+- Compare CSV and Parquet file formats.
+- Build an end-to-end ETL pipeline (Read → Transform → Filter → Write).
+- Save processed data in CSV and Parquet formats.
+- Follow Spark best practices for processing large datasets.
+
+---
+
+## 📚 Topics Covered in Assignment No. 6
+
+| Topic | Description |
+| :--- | :--- |
+| ⚡ Apache Spark Architecture | Understanding Driver Program, Cluster Manager, and Executors |
+| 🏗️ Spark Environment Setup | Setting up Apache Spark using PySpark in Google Colab |
+| 🚀 Spark Execution Modes | Learning Local Mode, Standalone, YARN, and Kubernetes execution modes |
+| 🔄 Lazy Evaluation | Understanding how Spark delays execution until an action is triggered |
+| 📊 DAG (Directed Acyclic Graph) | Viewing Spark execution plans using `explain(True)` |
+| 📂 Reading CSV Data | Loading the Hotel Booking Demand dataset with schema inference |
+| 📁 Reading Parquet Files | Reading processed Parquet files for optimized analytics |
+| 📋 Schema Handling | Exploring DataFrame schema and automatic data type inference |
+| 📊 Data Exploration | Displaying records, schema, statistics, rows, and columns |
+| 🔍 Filtering & Selection | Filtering records and selecting required columns |
+| 📝 DataFrame Modifications | Renaming columns, casting data types, and creating calculated columns |
+| 🧹 Missing Value Handling | Using `fillna()` and `dropna()` to handle null values |
+| 🔄 Data Transformations | Applying Spark DataFrame transformations and actions |
+| 📈 Aggregation & GroupBy | Performing aggregation using `groupBy()`, `count()`, `avg()`, and other functions |
+| 🔀 Wide Transformations | Understanding shuffle operations during `groupBy()` and other wide transformations |
+| 🚀 Predicate Pushdown | Optimizing query execution by pushing filters closer to the data source |
+| 📄 CSV vs Parquet | Comparing storage format, compression, and query performance |
+| 🔁 ETL Pipeline | Building a complete Read → Transform → Filter → Write pipeline |
+| 💾 Writing Output | Saving processed datasets in CSV and Parquet formats |
+| ⚡ Spark Performance | Understanding performance optimization techniques and best practices |
+| ✅ End-to-End Spark Workflow | Implementing a complete Spark data processing workflow using PySpark |
 ---
 
 ## 🎯 Learning Goals
@@ -331,7 +403,8 @@ This structured learning journey is designed to:
 ✅ Assignment No. 3 Completed
 ✅ Assignment No. 4 Completed
 ✅ Assignment No. 5 Completed
-⏳ Next: Assignment No. 6
+✅ Assignment No. 6 Completed
+⏳ Next: Assignment No. 7
 ```
 
 ---
@@ -339,16 +412,6 @@ This structured learning journey is designed to:
 ## 📌 Future Scope
 
 Future assignments will cover:
-
-• Advanced SQL Queries & Optimization
-
-• Subqueries and Nested Queries
-
-• Window Functions
-
-• ETL Pipeline Development
-
-• Apache Spark Transformations
 
 • Databricks Workflow Management
 
