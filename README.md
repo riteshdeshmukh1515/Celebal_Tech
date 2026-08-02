@@ -1,4 +1,14 @@
-# ⚙️ Data Engineering Weekly Assignments
+<h1 align="center"><b>⚙️ Data Engineering Weekly Assignments</b></h1>
+
+<p align="center">
+A collection of weekly Data Engineering assignments completed using Python, SQL, Apache Spark, Azure Databricks, Delta Lake, and Azure Data Factory.
+</p>
+
+---
+
+<p align="center">
+<b>📚 Celebal Technologies Data Engineering Internship</b>
+</p>
 
 <div align="center">
 
