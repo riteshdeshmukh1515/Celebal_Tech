@@ -1,0 +1,4 @@
+﻿Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Product_ID,Category,Sub-Category,Product_Name,Sales,Quantity,Discount,Profit
+2,CA-2016-152156,11/8/2016,11/11/2016,Second Class,CG-12520,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,FUR-CH-10000454,Furniture,Chairs,Hon Deluxe Fabric Upholstered Stacking Chairs,750,3,0,225
+9995,CA-2018-200001,1/5/2018,1/9/2018,Standard Class,AB-11111,John Smith,Consumer,United States,Chicago,Illinois,60601,Central,OFF-BI-10000001,Office Supplies,Binders,Premium Binder,350,2,0.1,45
+9996,CA-2018-200002,2/10/2018,2/15/2018,First Class,CD-22222,Alice Brown,Corporate,United States,Dallas,Texas,75001,Central,TEC-PH-10000002,Technology,Phones,Wireless Phone,650,5,0,150
