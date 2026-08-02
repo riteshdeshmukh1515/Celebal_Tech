@@ -65,7 +65,7 @@ This repository will be updated regularly after each assignment submission.
 | Week 4 | Data Engineering Concepts | ✅ Completed |
 | Week 5 | Data Cleaning             | ✅ Completed |
 | Week 6 | Spark Introduction        | ✅ Completed |
-| Week 7 | Databricks                |  🔒 Pending |
+| Week 7 | Databricks                | ✅ Completed |
 | Week 8 | Planning                  |  🔒 Pending |
 
 ---
@@ -168,6 +168,16 @@ Celebal_Tech (data-engineering-assignments)/
 │   └── README.md
 │
 ├── Assignment-07/
+│   ├── Dataset/
+│   │   ├── Sample - Superstore.csv
+│   │   └── Superstore_Incremental.csv
+│   │
+│   ├── Notebook/
+│   │   └── Delta_Lake_Assignment.ipynb
+│   │
+│   ├── Screenshots/
+|   |
+│   └── README.md
 │
 └── Assignment-08/
 ```
@@ -379,6 +389,61 @@ This assignment focuses on understanding **Apache Spark Architecture** and perfo
 | ✅ End-to-End Spark Workflow | Implementing a complete Spark data processing workflow using PySpark |
 ---
 
+# 📌 Week 7 (Assignment No. 7)
+## Delta Lake Incremental Data Processing using Azure Databricks
+
+## 📖 Overview
+
+This assignment focuses on implementing **Incremental Data Processing using Delta Lake** in **Azure Databricks**. The **Sample Superstore** dataset is used to demonstrate how to load data into a Delta table, perform data cleaning, create an incremental dataset, and efficiently update existing records while inserting new records using the **MERGE (UPSERT)** operation.
+
+The assignment also explores key Delta Lake features such as **ACID Transactions**, **Schema Enforcement**, **Schema Validation**, and efficient data management for modern data engineering pipelines. Finally, the processed data is validated using row count, duplicate checks, and summary statistics to ensure data quality and consistency.
+
+---
+
+## 🎯 Objectives
+
+- Understand the fundamentals of Delta Lake.
+- Learn the benefits of Delta Lake over traditional file formats.
+- Load CSV data into a Spark DataFrame.
+- Perform data cleaning by handling null values and removing duplicate records.
+- Rename column names for Delta Lake compatibility.
+- Create and store data as a Delta Table.
+- Create an incremental dataset to simulate new incoming records.
+- Perform MERGE (UPSERT) operations to update and insert records.
+- Validate the processed data using row count and duplicate checks.
+- Generate summary statistics for the final dataset.
+- Build an end-to-end Incremental ETL pipeline using Delta Lake.
+- Gain practical experience with Azure Databricks and Delta Lake.
+
+---
+
+## 📚 Topics Covered in Assignment No. 7
+
+| Topic | Description |
+| :--- | :--- |
+| 🏗️ Introduction to Delta Lake | Understanding Delta Lake architecture and its advantages |
+| ☁️ Azure Databricks | Working with Databricks notebooks and Unity Catalog Volumes |
+| 📂 Loading CSV Data | Importing the Sample Superstore dataset into a Spark DataFrame |
+| 📊 Data Exploration | Displaying records, schema, row count, and understanding the dataset |
+| 🧹 Data Cleaning | Handling null values and removing duplicate records |
+| 📝 Column Renaming | Renaming columns by replacing spaces with underscores for Delta compatibility |
+| 💾 Delta Table Creation | Creating and storing data in Delta Lake format |
+| 📁 Incremental Dataset | Creating a second dataset containing updated and new records |
+| 📥 Loading Incremental Data | Reading incremental CSV data into a Spark DataFrame |
+| 🔀 MERGE (UPSERT) | Updating existing records and inserting new records using Delta Lake MERGE |
+| 🔑 Primary Key Matching | Matching records using the **Row_ID** column |
+| ⚡ ACID Transactions | Ensuring reliable and consistent data updates |
+| 🛡️ Schema Enforcement | Preventing invalid or incompatible data from being written |
+| 📋 Data Validation | Validating row count, duplicate records, and processed data |
+| 📈 Summary Statistics | Generating descriptive statistics for numerical columns |
+| 🚀 Incremental ETL Pipeline | Building a complete Read → Clean → Load → MERGE → Validate workflow |
+| 📦 Delta Table Management | Managing Delta tables for efficient storage and querying |
+| ⚙️ Delta Lake Best Practices | Understanding efficient storage, updates, and data reliability |
+| 🎯 End-to-End Delta Lake Workflow | Implementing a complete incremental data processing solution using Azure Databricks |
+
+---
+
+
 ## 🎯 Learning Goals
 This structured learning journey is designed to:
 
@@ -404,7 +469,8 @@ This structured learning journey is designed to:
 ✅ Assignment No. 4 Completed
 ✅ Assignment No. 5 Completed
 ✅ Assignment No. 6 Completed
-⏳ Next: Assignment No. 7
+✅ Assignment No. 7 Completed
+⏳ Next: Assignment No. 8
 ```
 
 ---
