@@ -76,7 +76,7 @@ This repository will be updated regularly after each assignment submission.
 | Week 5 | Data Cleaning             | ✅ Completed |
 | Week 6 | Spark Introduction        | ✅ Completed |
 | Week 7 | Databricks                | ✅ Completed |
-| Week 8 | Planning                  |  🔒 Pending |
+| Week 8 | Planning                  | ✅ Completed |
 
 ---
 
@@ -190,6 +190,55 @@ Celebal_Tech (data-engineering-assignments)/
 │   └── README.md
 │
 └── Assignment-08/
+    ├── data/
+    │   ├── raw/
+    │   │   ├── customers.csv
+    │   │   ├── products.csv
+    │   │   ├── orders.csv
+    │   │   └── order_items.csv
+    │   │
+    │   └── cleaned/
+    │       ├── customers_clean.csv
+    │       ├── products_clean.csv
+    │       ├── orders_clean.csv
+    │       └── order_items_clean.csv
+    │
+    ├── output/
+    │   ├── sample_reports/
+    │   │   ├── category.txt
+    │   │   ├── retention.txt
+    │   │   ├── revenue.txt
+    │   │   ├── rfm.txt
+    │   │   ├── segments.txt
+    │   │   ├── top_customers.txt
+    │   │   └── top_products.txt
+    │   │
+    │   └── cleaning_report.csv
+    │
+    ├── scripts/
+    │   ├── check_raw_data.py
+    │   ├── clean_data.py
+    │   ├── generate_data.py
+    │   ├── load_database.py
+    │   ├── report_cli.py
+    │   └── run_sql.py
+    │
+    ├── sql/
+    │   ├── aggregations.sql
+    │   ├── cohort_analysis.sql
+    │   ├── customer_segmentation.sql
+    │   ├── schema.sql
+    │   └── window_functions.sql
+    │
+    ├── tests/
+    │   ├── test_edge_cases.py
+    │   ├── test_future_date.py
+    │   └── test_single_customer.py
+    │
+    ├── .gitignore
+    ├── README.md
+    ├── requirements.txt
+    └── setup_project.py
 ```
 
 
@@ -468,6 +517,56 @@ This structured learning journey is designed to:
 ✔ Understand ETL pipelines and data architecture  
 ✔ Develop end-to-end real-world data solutions  
 
+# 📌 Week 8 (Assignment No. 8)
+
+## E-Commerce Order Analytics System using Python and SQL
+
+## 📖 Overview
+
+This assignment focuses on building an **end-to-end E-Commerce Order Analytics System** using **Python, Pandas, SQLite, and SQL**. The project covers the complete data engineering workflow, including realistic data generation, data cleaning, validation, database loading, SQL analytics, customer segmentation, RFM analysis, cohort and retention analysis, and CLI-based reporting.
+
+The project demonstrates practical data engineering concepts such as **ETL pipelines, relational database design, SQL JOINs, aggregations, CTEs, window functions, data quality validation, customer segmentation, and business reporting**.
+
+---
+
+## 🎯 Objectives
+
+* Generate realistic e-commerce datasets using **Python and Faker**.
+* Introduce and handle data quality issues such as **nulls, duplicates, and invalid IDs**.
+* Clean and validate datasets using **Pandas**.
+* Load cleaned data into a **SQLite relational database**.
+* Perform **SQL-based business analytics**.
+* Apply **JOINs, aggregations, CTEs, and window functions**.
+* Perform **cohort and customer retention analysis**.
+* Implement **customer segmentation and RFM analysis**.
+* Develop a **Python CLI reporting tool**.
+* Handle **database errors and edge cases**.
+* Generate **business reports and insights**.
+
+---
+
+## 📚 Topics Covered in Assignment No. 8
+
+| Topic                         | Description                                                                       |
+| :---------------------------- | :-------------------------------------------------------------------------------- |
+| 🐍 **Python Data Generation** | Generating realistic customers, products, orders, and order items                 |
+| 🧹 **Data Cleaning**          | Handling missing values, duplicates, data types, and invalid records using Pandas |
+| 🔍 **Data Validation**        | Validating IDs and referential integrity between tables                           |
+| 🗄️ **SQLite Database**       | Creating and loading relational tables using SQLite                               |
+| 🔗 **SQL JOINs**              | Combining customers, orders, order items, and products                            |
+| 📊 **SQL Aggregations**       | Calculating revenue, AOV, product sales, and category revenue                     |
+| 🪟 **Window Functions**       | Using `RANK()`, `DENSE_RANK()`, `SUM() OVER()`, `AVG() OVER()`, and `LAG()`       |
+| 🔄 **CTEs**                   | Performing multi-step SQL analysis and revenue growth calculations                |
+| 📅 **Cohort Analysis**        | Grouping customers based on their first purchase month                            |
+| 🔁 **Retention Analysis**     | Measuring customer retention and identifying repeat customers                     |
+| 👥 **Customer Segmentation**  | Classifying customers as One-Time, Occasional, or Loyal                           |
+| 💰 **Spend Segmentation**     | Categorizing customers into Low, Medium, and High spend tiers                     |
+| 📈 **RFM Analysis**           | Analyzing Recency, Frequency, and Monetary customer behavior                      |
+| 💻 **CLI Reporting**          | Generating reports through a Python command-line application                      |
+| 🧪 **Edge Case Testing**      | Testing invalid inputs, empty results, single customers, and future dates         |
+| 📋 **Business Reporting**     | Generating revenue, customer, product, category, retention, and RFM reports       |
+| 🔄 **End-to-End ETL**         | Implementing the complete **Generate → Clean → Load → Analyze → Report** workflow |
+
 ---
 
 ## 🚀 Current Progress
@@ -480,7 +579,7 @@ This structured learning journey is designed to:
 ✅ Assignment No. 5 Completed
 ✅ Assignment No. 6 Completed
 ✅ Assignment No. 7 Completed
-⏳ Next: Assignment No. 8
+✅ Assignment No. 8 Completed
 ```
 
 ---
