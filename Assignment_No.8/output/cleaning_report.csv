@@ -1,0 +1,7 @@
+table,issue,rows_before,rows_after,action
+customers,duplicate_customer_id,1010,1000,Removed duplicate customer records
+customers,invalid_email,20,0,Invalid emails replaced with NULL
+products,duplicate_product_id,202,200,Removed duplicate product records
+orders,duplicate_order_id,5050,5000,Removed duplicate order records
+orders,missing_customer_id,5000,4768,Removed orders without a customer reference
+order_items,duplicate_item_id,14882,14882,Removed duplicate order item records
