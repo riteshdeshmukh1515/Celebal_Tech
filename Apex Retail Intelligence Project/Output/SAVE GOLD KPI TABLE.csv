@@ -1,0 +1,15 @@
+database,tableName,isTemporary
+gold,category_sales_summary,false
+gold,customer_cohort_retention,false
+gold,customer_rfm,false
+gold,customer_sales_summary,false
+gold,dim_date,false
+gold,dim_product,false
+gold,fact_sales,false
+gold,final_business_kpi,false
+gold,final_data_quality_report,false
+gold,gold_kpi,false
+gold,monthly_sales_summary,false
+gold,product_sales_summary,false
+gold,sales_gold,false
+gold,sales_kpi_summary,false
