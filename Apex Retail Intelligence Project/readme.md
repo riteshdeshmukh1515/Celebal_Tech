@@ -676,18 +676,18 @@ APEX-Retail-Data-Engineering/
 ├── README.md
 │
 ├── notebooks/
-│   └── APEX_Retail_Data_Engineering.py
+│   └── updated_Apex_retail_intelligence.py
+│   └── Apex_retail_intelligence.py
 │
-├── data/
-│   └── samples/
-│       ├── customer_sample.csv
-│       ├── product_sample.csv
-│       └── sales_sample.csv
+├── Dataset/
+
 │
 ├── screenshots/
+|
+├── Output/
 │
 └── docs/
-    └── project_summary.md
+    └── APEX_Retail_Detailed_Documentation.pdf
 ```
 
 > Large raw datasets and complete Delta/Parquet storage files should generally not be committed to GitHub. Use sample data where appropriate.
